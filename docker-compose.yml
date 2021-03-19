@@ -1,6 +1,7 @@
 version: "3"
 services:
   sonarqube:
-    image: sonarqube:lts
+    #image: sonarqube:lts
+    image: sonarqube:7.9.6-community
     ports:
       - 9000:9000

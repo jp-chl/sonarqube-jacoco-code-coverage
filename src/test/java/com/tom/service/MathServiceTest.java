@@ -27,4 +27,11 @@ public class MathServiceTest {
 
         assertThat(result, equalTo(1));
     }
+
+    @Test
+    public void divideNumbers() {
+        int result = mathService.divide(6, 3);
+
+        assertThat(result, equalTo(2));
+    }
 }
